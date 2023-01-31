@@ -1,3 +1,4 @@
-.svn
+*/.svn
+.vscode
 .DS_Store
 *.svn-base

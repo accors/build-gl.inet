@@ -34,7 +34,7 @@ jobs:
       run: |
         sudo apt update
         sudo apt upgrade -y
-        sudo apt install python build-essential libncurses5-dev gawk git libssl-dev gettext zlib1g-dev swig unzip time rsync python3 python3-setuptools python3-yaml subversion -y
+        sudo apt install python build-essential libncurses5-dev gawk git libssl-dev gettext zlib1g-dev swig unzip time rsync python3 python3-setuptools python3-yaml subversion re2c ninja -y
         git config --global user.email "aa@163.com"
         git config --global user.name "aa"
     - name: make 
@@ -70,6 +70,7 @@ jobs:
       run: |
         echo "release_tag=${{inputs.device}}.${{ inputs.ui }}.$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         echo "status=success" >> $GITHUB_OUTPUT 
+        
     - name: Upload firmware to release
       uses: softprops/action-gh-release@v1
       if: steps.tag.outputs.status == 'success' && !cancelled() && !failure()
