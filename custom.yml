@@ -10,11 +10,11 @@ feeds:
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
 
-  - name: sbwml-mosdns
+  - name: mosdns
     uri: https://github.com/sbwml/luci-app-mosdns.git
     branch: master
 
-  - name: sbwml-geodata
+  - name: geodata
     uri: https://github.com/sbwml/v2ray-geodata.git
     branch: master
     
