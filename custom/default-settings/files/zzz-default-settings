@@ -3,7 +3,6 @@
 #config system
 uci set system.@system[0].timezone=CST-8
 uci set system.@system[0].zonename=Asia/Shanghai
-uci del system.led_wan
 uci commit system
 
 # config wireless
@@ -239,8 +238,5 @@ config conf 'common'
 	option dashboard_pwd '12345678'
 	option log_level 'error'
 	option token 'openwrt'" > /etc/config/frps
-
-
-echo "10 5 * * 6 sleep 70 && touch /etc/banner && reboot" > /etc/crontabs/root
 
 exit 0

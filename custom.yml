@@ -11,23 +11,29 @@ feeds:
     branch: master
     
 packages:
-  - luci-app-ssr-plus
-  - luci-app-ddns
+  
+  
+  
+  - dnsmasq-full
   - ddns-scripts
   - ddns-scripts-services
   - ddns-scripts_aliyun
-  - luci-app-uhttpd
-  - dnsmasq-full
-  - luci-app-commands
-  - luci-app-mwan3
-  - luci-app-wireguard
   - wireguard
-  - luci-app-eqos
   - wireguard-tools
   - mosdns
+  - natmap
+  - luci-app-n2n
+  - luci-app-ddns
+  - luci-app-eqos
+  - luci-app-mwan3
   - luci-app-lucky
   - luci-app-mosdns
+  - luci-app-natmap
+  - luci-app-uhttpd
   - luci-app-pushbot
+  - luci-app-commands
+  - luci-app-ssr-plus
+  - luci-app-wireguard
   - luci-app-unblockneteasemusic
 
 
