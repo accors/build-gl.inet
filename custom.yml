@@ -26,7 +26,6 @@ packages:
   - luci-app-pushbot
   - luci-app-commands
   - luci-app-ssr-plus
-  - luci-app-bypass
   - luci-app-wireguard
   - luci-app-unblockneteasemusic
 
