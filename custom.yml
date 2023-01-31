@@ -9,14 +9,6 @@ feeds:
   - name: kenzok8
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-
-  - name: mosdns
-    uri: https://github.com/sbwml/luci-app-mosdns.git
-    branch: master
-
-  - name: geodata
-    uri: https://github.com/sbwml/v2ray-geodata.git
-    branch: master
     
 packages:
   
@@ -26,19 +18,15 @@ packages:
   - ddns-scripts_aliyun
   - wireguard
   - wireguard-tools
-  - n2n
-  - mosdns
-  - v2ray-geodata
   - luci-app-ddns
   - luci-app-eqos
   - luci-app-mwan3
-  - luci-app-mosdns
-  - luci-app-n2n
   - luci-app-lucky
   - luci-app-uhttpd
   - luci-app-pushbot
   - luci-app-commands
   - luci-app-ssr-plus
+  - luci-app-bypass
   - luci-app-wireguard
   - luci-app-unblockneteasemusic
 
