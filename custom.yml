@@ -19,6 +19,7 @@ packages:
   - wireguard
   - wireguard-tools
   - v2ray-geodata
+  - lucky
   - luci-app-n2n
   - luci-app-ddns
   - luci-app-eqos
