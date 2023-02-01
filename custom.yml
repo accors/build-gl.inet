@@ -5,9 +5,13 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+
+  - name: lucky 
+    uri: https://github.com/gdy666/luci-app-lucky.git
+    branch: main
    
-  - name: kenzok8
-    uri: https://github.com/kenzok8/openwrt-packages.git
+  - name: pushbot
+    uri: https://github.com/zzsj0928/luci-app-pushbot.git
     branch: master
     
 packages:
