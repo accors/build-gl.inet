@@ -5,6 +5,10 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
+
+  - name: mosdns
+    uri: https://github.com/sbwml/luci-app-mosdns.git
+    branch: master
     
 packages:
   
@@ -14,6 +18,7 @@ packages:
   - ddns-scripts_aliyun
   - wireguard
   - wireguard-tools
+  - v2ray-geodata
   - luci-app-n2n
   - luci-app-ddns
   - luci-app-eqos
@@ -21,6 +26,9 @@ packages:
   - luci-app-natmap
   - luci-app-lucky
   - luci-app-uhttpd
+  - luci-app-mosdns
+  - luci-app-openvpn
+  - luci-i18n-openvpn-zh-cn
   - luci-app-pushbot
   - luci-app-commands
   - luci-app-ssr-plus
