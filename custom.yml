@@ -14,7 +14,6 @@ packages:
   - ddns-scripts_aliyun
   - wireguard
   - wireguard-tools
-  - luci-lib-fs
   - luci-app-n2n
   - luci-app-ddns
   - luci-app-eqos
@@ -26,7 +25,6 @@ packages:
   - luci-app-commands
   - luci-app-ssr-plus
   - luci-app-wireguard
-  - luci-app-filetransfer
   - luci-app-unblockneteasemusic
 
 
