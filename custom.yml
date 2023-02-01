@@ -24,6 +24,8 @@ packages:
   - luci-app-ddns
   - luci-app-eqos
   - luci-app-mwan3
+  - luci-app-ttyd
+  - luci-app-upnp
   - luci-app-natmap
   - luci-app-lucky
   - luci-app-uhttpd
@@ -34,8 +36,6 @@ packages:
   - luci-app-commands
   - luci-app-ssr-plus
   - luci-app-wireguard
-  - luci-app-unblockneteasemusic
-
 
 
 diffconfig: |
