@@ -5,14 +5,6 @@ feeds:
   - name: helloworld
     uri: https://github.com/fw876/helloworld.git
     branch: master
-
-  - name: lucky 
-    uri: https://github.com/gdy666/luci-app-lucky.git
-    branch: main
-   
-  - name: pushbot
-    uri: https://github.com/zzsj0928/luci-app-pushbot.git
-    branch: master
     
 packages:
   
@@ -22,15 +14,18 @@ packages:
   - ddns-scripts_aliyun
   - wireguard
   - wireguard-tools
+  - luci-app-n2n
   - luci-app-ddns
   - luci-app-eqos
   - luci-app-mwan3
+  - luci-app-natmap
   - luci-app-lucky
   - luci-app-uhttpd
   - luci-app-pushbot
   - luci-app-commands
   - luci-app-ssr-plus
   - luci-app-wireguard
+  - luci-app-filetransfer
   - luci-app-unblockneteasemusic
 
 
